@@ -1,5 +1,5 @@
 const request = require('request')
-const Rx = require('rx')
+const Rx = require('@rxjs/rx')
 const fs = require('graceful-fs')
 const _ = require('lodash')
 const u = require('./utils')

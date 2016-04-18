@@ -1,6 +1,6 @@
 const normalizePath = require('../src/utils').normalizePath
 const _ = require('lodash')
-const Rx = require('rx')
+const Rx = require('@rxjs/rx')
 
 module.exports = (createDownload, pFlags) => pFlags
     .skipWhile((x) => x.url)

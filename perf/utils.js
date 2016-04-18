@@ -5,7 +5,7 @@
 'use strict'
 const crypto = require('crypto')
 const fs = require('fs')
-const Rx = require('rx')
+const Rx = require('@rxjs/rx')
 
 exports.removeFile = (x) => Rx.Observable.fromCallback(fs.unlink)(x).toPromise()
 

@@ -2,7 +2,7 @@
  * Created by tusharmathur on 5/15/15.
  */
 'use strict'
-const Rx = require('rx')
+const Rx = require('@rxjs/rx')
 const _ = require('lodash')
 const createFD = require('./createFD')
 const initMTD = require('./initMTD')

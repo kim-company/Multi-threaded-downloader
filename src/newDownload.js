@@ -1,4 +1,4 @@
-const Rx = require('rx')
+const Rx = require('@rxjs/rx')
 const VALID_URL = require('valid-url')
 const _ = require('lodash')
 const pathGenerator = require('../src/utils').pathGenerator

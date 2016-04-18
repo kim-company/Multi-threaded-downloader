@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const Rx = require('rx')
+const Rx = require('@rxjs/rx')
 const _ = require('lodash')
 const meow = require('meow')
 const humanize = require('humanize-plus')

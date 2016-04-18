@@ -3,7 +3,7 @@
  */
 
 'use strict'
-const Rx = require('rx')
+const Rx = require('@rxjs/rx')
 const ob = require('./observables')
 const u = require('./utils')
 
